@@ -2,14 +2,12 @@
 layout: page
 title: About
 permalink: /about/
+published: true
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+About us
 
 ### Contact me
+If you have found a problem with StringEx, we would like to hear from you!Save the columns and template into file,attach it including a description of the problem and send it to us at [ wazcd@163.com](mailto:wazcd@163.com)1.1.##.
 
-[email@domain.com](mailto:email@domain.com)
+
