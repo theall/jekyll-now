@@ -1,0 +1,18 @@
+- title: Getting Start
+  docs:
+  - home
+  - text block
+  - merge
+  - extract data
+  - replace
+  - content generator
+  
+- title: Examples
+  docs:
+  - split text block
+  - name value pair
+  
+- title: Other Resource
+  docs:
+  - screenshot gallery
+  - history

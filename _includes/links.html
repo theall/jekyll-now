@@ -1,9 +1,13 @@
-<div class="block">
-  {% for link in site.links %}
-    <a target="{% if link.external %}_blank{% else %}_top{% endif %}"
-       class="main" 
-       href="{% unless link.external %}{{ site.url }}{% endunless %}{{ link.url }}">
-       {{ link.name }}
-     </a>
-  {% endfor %}
-</div>
+<section class="friend_links">
+    <div class="container">
+        <a href="https://www.qt.io/"><img src="/resource/images/links/qt.png"></a>
+        <a href="https://icons8.com"><img src="/resource/images/links/icon8.png"></a>
+        <a href="http://jekyllrb.com/"><img src="/resource/images/links/jekyll.png"></a>
+        <a href="http://www.freepik.com/"><img src="/resource/images/links/freepik.png"></a>
+        <a href="http://www.easyicon.net/"><img src="/resource/images/links/easy_icon.png"></a>
+        <a href="http://appzgear.com/"><img src="/resource/images/links/appzgear.png"></a>
+        <a href="http://www.softpedia.com"><img src="/resource/images/links/softpedia.png"></a>
+        <a href="http://glyphicons.com/"><img src="/resource/images/links/glyphicons.svg"></a>
+        <a href="http://www.filecluster.com/"><img src="/resource/images/links/filecluster.png"></a>
+    </div>
+</section>

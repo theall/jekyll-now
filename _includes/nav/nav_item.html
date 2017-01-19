@@ -1,0 +1,14 @@
+<ul class="nav navbar-nav">
+  <li class="{% if page.overview %}current{% endif %}">
+    <a href="/">Home</a>
+  </li>
+  <li class="{% if page.url contains '/download/' %}current{% endif %}">
+    <a href="/download/">Download</a>
+  </li>
+  <li class="{% if page.url contains '/docs/' %}current{% endif %}">
+    <a href="/docs/home/">Documentation</a>
+  </li>
+  <li class="{% if page.url contains '/contact/' %}current{% endif %}">
+    <a href="/support/">Support</a>
+  </li>
+</ul>

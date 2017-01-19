@@ -1,33 +1,25 @@
-﻿<!DOCTYPE html>
-<html>
-  <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
-
-    {% include meta.html %}
-
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <link rel="shortcut icon" href="/favicon.ico"/>
-    <link rel="bookmark" href="/favicon.ico"/>
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-    <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css" charset="utf-8"/>
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
-  </head>
-  
-  <body>
-    <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
-
-          {% include nav.html %}
-          
-        </header>
-    </div>
-    <br>
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <title>StringEx - Work lazier, work easier!</title>
+    
+    {% feed_meta %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="StringEx v{{ stringex.version }}">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Bilge Theall">
+	<meta name="description" content="StringEx is an advance text editor used to merge and split text bolck">
+	<meta name="keywords" content="StringEx, Text, Editor, Merge, Replace, Batch, Block, Split, Match, Column, Set, Generate, Win7, Win10, Win8, Vista, XP, Transparency, Alpha, Macintosh, MacOS, OS X, Convert, favicon">
+	
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico" />  
+	<link rel="stylesheet" type="text/css" href="/resource/css/bootstrap.min.css">  
+    <link rel="stylesheet" type="text/css" href="/resource/css/mystyle.css">
+    <!--{% if page.url contains "gallery" %}-->
+    <link rel="stylesheet" href="/resource/css/lightbox.min.css">
+    <!--{% endif %}
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic,900">-->
+    
+    {% seo %}
+    <script type="text/javascript" src="/resource/js/myscript.js"></script>
+</head>

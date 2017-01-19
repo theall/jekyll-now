@@ -1,0 +1,8 @@
+<div class="docs_article_nav nav">
+  <aside>
+    {% for section in site.data.docs %}
+    <h4>{{ section.title }}</h4>
+    {% include docs/docs_nav_item.html items=section.docs %}
+    {% endfor %}
+  </aside>
+</div>

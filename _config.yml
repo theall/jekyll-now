@@ -1,12 +1,31 @@
+markdown: kramdown
+highlighter: rouge
+
+gauges_id: 
+google_analytics_id: 
+google_site_verification: 
+
+repository: 
+help_url: 
+
+timezone: America/Los_Angeles
+
+collections:
+  docs:
+    output: true
+  posts:
+    permalink: /news/:year/:month/:day/:title/
+    output: true
+
 #
 # This file contains configuration flags to customize your site
 #
 
 # Name of your site (displayed in the header)
-name: StringEx
+name: StringEx • Simple, merge, split
 
 # Short bio or description (displayed in the header)
-description: A helper for merging text..
+description: Utility for handle text block.
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: /logo.png
@@ -14,6 +33,7 @@ avatar: /logo.png
 #
 # Flags below are optional
 #
+timezone: America/Los_Angeles
 
 # Includes an icon in the footer for each username you enter
 footer-links:
@@ -41,7 +61,7 @@ google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url:
+url: https://www.stringex.org
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
@@ -55,14 +75,14 @@ baseurl: ""
 
 permalink: /:title/
 
-# The release of Jekyll Now that you're using
+# The release of StringEx Now that you're using
 version: v1.2.0
 
-# Jekyll 3 now only supports Kramdown for Markdown
+# StringEx 3 now only supports Kramdown for Markdown
 kramdown:
   # Use GitHub flavored markdown, including triple backtick fenced code blocks
   input: GFM
-  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
+  # StringEx 3 and GitHub Pages now only support rouge for syntax highlighting
   syntax_highlighter: rouge
   syntax_highlighter_opts:
     # Use existing pygments syntax highlighting css
@@ -74,9 +94,14 @@ sass:
 
 # Use the following plug-ins
 gems:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
-
+  - jekyll-sitemap # Create a sitemap using the official StringEx sitemap gem
+  - jekyll-feed # Create an Atom feed using the official StringEx feed gem
+  - jekyll-redirect-from
+  - jemoji
+  - jekyll-seo-tag
+  - jekyll-avatar
+  - jekyll-mentions
+  
 # Exclude these files from your production _site
 exclude:
   - Gemfile
@@ -84,3 +109,4 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
